@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+//  padding: 20px;
+    // это 10px, удобнее считать
+//
+//    //для phone не пишем, потому что для него применятся стили tab-port
+//  @include respond(tab-land) {
+//    font-size: 56.25%;  //1rem = 9px
+//  }
+//
+//  @include respond(tab-port) {
+//    font-size: 50%;  //1rem = 8px
+//  }
+//
+//  @include respond(big-desktop) {
+//    font-size: 75%;  //1rem = 12px
+//  }
+}
+
+body, p, h1, h2, h3, h4, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+//  @include respond(tab-port) {
+//    padding: 0;
+//  }
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;  
+}
+
+
